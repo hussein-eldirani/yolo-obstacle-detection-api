@@ -1,0 +1,29 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python artifacts
+__pycache__/
+*.pyo
+*.pyc
+*.py[cod]
+*$py.class
+
+# IDE and OS Settings
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# YOLO & PyTorch Temporary Directories
+*.cache
+runs/
+
+# Local testing data dumps
+test_inputs/
+test_outputs/
