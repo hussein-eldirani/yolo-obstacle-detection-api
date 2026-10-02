@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLO-v8-00FFFF?style=for-the-badge)
+![YOLO26](https://img.shields.io/badge/YOLO-26-00FFFF?style=for-the-badge)
 
 A FastAPI service serving a custom-trained YOLO model for real-time obstacle detection.
 
