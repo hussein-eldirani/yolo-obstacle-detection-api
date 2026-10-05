@@ -13,6 +13,7 @@ A FastAPI service serving a custom-trained YOLO model for real-time obstacle det
 - **Async Threadpool Offloading:** Utilizes FastAPI's `run_in_threadpool` to offload CPU-heavy inference without blocking the async event loop.
 - **Strict Validation:** Input MIME-type checking and Pydantic response models ensure structured output schemas.
 - **State Management:** Loads YOLO weights once during application lifespan (`app.state`) rather than per-request.
+- **System Health Diagnostics:** Includes dedicated health check routes for load balancers and container orchestrators.
 
 ## Architecture & Design Decisions
 
