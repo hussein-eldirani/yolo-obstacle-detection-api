@@ -24,6 +24,12 @@ obstacle_detection_api/
 └── requirements.txt       # Project dependencies
 ```
 
+## Dataset & Model Training
+
+- **Source Dataset:** Trained using the [Kaggle Obstacle Detection Dataset](https://www.kaggle.com/datasets/abtinzandi/obstacle-detection-dataset).
+- **Target Task:** Single/multi-class object detection optimized for navigational obstacles.
+- **Model Architecture:** Trained **YOLO26 Nano** weights stored in `models/best.pt`.
+
 ## Features
 
 - **Fast Model Inference:** Runs bounding-box prediction on uploaded image binary streams using PyTorch/YOLO.
