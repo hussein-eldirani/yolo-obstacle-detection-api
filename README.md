@@ -19,6 +19,9 @@ obstacle_detection_api/
 │   └── main.py            # FastAPI endpoints, validation & lifespan
 ├── models/
 │   └── best.pt            # Trained YOLO model weights
+├── tests/
+│   ├── __init__.py
+│   └── test_api.py        # PyTest test suite
 ├── .gitignore             # Version control exclusions
 ├── README.md              # Project documentation
 └── requirements.txt       # Project dependencies
@@ -77,4 +80,16 @@ Accepts an uploaded image file (`multipart/form-data`) and returns object classi
 {
   "detail": "Uploaded file must be an image."
 }
+```
+
+## Testing
+
+The project includes an automated test suite built with `pytest` and FastAPI's `TestClient`, covering endpoint availability, model state lifespans, MIME-type validation, and inference payload schemas.
+
+### Running the Test Suite
+
+Make sure your virtual environment is active and dependencies are installed, then, in the root folder, run:
+
+```
+pytest
 ```
